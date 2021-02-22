@@ -15,7 +15,7 @@ void mousePressed() {
 
 public void ripple(int x, int y, int size, int m) {
   circle(x, y, size);
-  if(size < 800) {
+  if(size < 900) {
     ripple(x, y, size+80, m);
   }
 }
