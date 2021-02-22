@@ -10,12 +10,12 @@ void mousePressed() {
   int y = mouseY;
   stroke(0,0,255);
   strokeWeight(3);
-  ripple(x, y, 20, m);
+  ripple(x, y, 20);
 }
 
-public void ripple(int x, int y, int size, int m) {
+public void ripple(int x, int y, int size) {
   circle(x, y, size);
   if(size < 900) {
-    ripple(x, y, size+80, m);
+    ripple(x, y, size+80);
   }
 }
