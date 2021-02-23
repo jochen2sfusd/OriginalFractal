@@ -1,7 +1,6 @@
 public void setup () {
   size(1200, 700);
   background(250);
-  noFill();
   strokeWeight(3);
 }
 
@@ -9,7 +8,6 @@ void mousePressed() {
   int x = mouseX;
   int y = mouseY;
   stroke(0,0,255);
-  strokeWeight(3);
   ripple(x, y, 20);
 }
 
