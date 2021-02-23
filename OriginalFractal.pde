@@ -1,6 +1,6 @@
 public void setup () {
   size(1200, 700);
-  background(250);
+  background(0);
   noFill();
   strokeWeight(3);
 }
