@@ -1,7 +1,6 @@
 public void setup () {
   size(1200, 700);
   background(250);
-  strokeWeight(3);
 }
 
 void mousePressed() {
